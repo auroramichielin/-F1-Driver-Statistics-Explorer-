@@ -37,7 +37,7 @@ What it checks:
 - `test_average_points_per_race` | Points total divided by race count |
 
 🗃️ Data Sources
-The CSV files used in this project are based on the Ergast F1 Dataset, a widely used open dataset covering Formula 1 results from 1950 to the present. https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020/data
+- The CSV files used in this project are based on the Ergast F1 Dataset, a widely used open dataset covering Formula 1 results from 1950 to the present. https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020/data
 
 🧠 Design Decisions
 - CSV over a database: Keeping data in flat CSV files makes the project easy to set up and fully self-contained — no database server required.
@@ -46,4 +46,4 @@ The CSV files used in this project are based on the Ergast F1 Dataset, a widely 
 - Cumulative chart sorted by raceId: Races are sorted by raceId (which increases chronologically) to ensure the points progression is displayed in the correct order across a driver's career.
 
 👤 Author
-Created as the final project for Harvard's CS50P – Introduction to Programming with Python.
+Aurora Michielin. Created as the final project for Harvard's CS50P – Introduction to Programming with Python.
