@@ -33,24 +33,6 @@ You'll be prompted to:
 - View that driver's full race history and career stats
 - Optionally generate a cumulative points chart
 
-💡 Example Usage
-Enter a driver's name to search for: hamilton
-
-Matching drivers:
-1. Lewis Hamilton (ID: 1)
-
-Enter the number of the driver to view results: 1
-Results for Lewis Hamilton:
-Australian Grand Prix | Position: 4 | Points: 5.0
-Malaysian Grand Prix  | Position: 1 | Points: 10.0
-...
-Total career points for Lewis Hamilton: 4765.5
-Lewis Hamilton has an average of 12.48 points per race
-Total wins for Lewis Hamilton: 103
-Lewis Hamilton has won 36.65% of races he participated in
-Average finish position for Lewis Hamilton during his career: 4.21
-Would you like to visualize points over time? (yes/no) yes
-
 🗃️ Data Sources
 The CSV files used in this project are based on the Ergast F1 Dataset, a widely used open dataset covering Formula 1 results from 1950 to the present. https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020/data
 
