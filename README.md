@@ -27,14 +27,14 @@ You'll be prompted to:
 🧪 Testing
 Unit tests are written with pytest and cover all core functions in project.py. Tests use a small set of inline sample data (no CSV files required) to keep them fast and self-contained.
 What it checks:
-| `test_search_driver` | Partial/case-insensitive name matching |
-| `test_match_drivers_to_results` | Results correctly grouped by driver ID |
-| `test_match_races` | Race IDs correctly mapped to race names |
-| `test_total_points` | Sum of points across all races |
-| `test_count_wins` | Count of position == 1 results |
-| `test_stat_of_wins` | Win percentage calculation |
-| `test_average_finish_position` | Average of numeric finish positions only |
-| `test_average_points_per_race` | Points total divided by race count |
+- `test_search_driver` | Partial/case-insensitive name matching |
+- `test_match_drivers_to_results` | Results correctly grouped by driver ID |
+- `test_match_races` | Race IDs correctly mapped to race names |
+- `test_total_points` | Sum of points across all races |
+- `test_count_wins` | Count of position == 1 results |
+- `test_stat_of_wins` | Win percentage calculation |
+- `test_average_finish_position` | Average of numeric finish positions only |
+- `test_average_points_per_race` | Points total divided by race count |
 
 🗃️ Data Sources
 The CSV files used in this project are based on the Ergast F1 Dataset, a widely used open dataset covering Formula 1 results from 1950 to the present. https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020/data
