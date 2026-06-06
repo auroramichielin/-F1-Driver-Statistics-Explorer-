@@ -6,21 +6,12 @@ The project is built on real F1 historical data stored in CSV files, and leverag
 - 🔍 Driver search — search by first name, last name, or partial name
 - 📋 Race-by-race results — view position and points earned for every race in a driver's career
 - 📊 Career statistics, including:
-Total career points
-Average points per race
-Total wins
-Win percentage
-Average finish position
+     Total career points
+     Average points per race
+     Total wins
+     Win percentage
+     Average finish position
 - 📈 Cumulative points chart — visualize a driver's points progression over their entire career using matplotlib
-
-📁 Project Structure
-project/
-│
-├── project.py          # Main application logic
-├── drivers.csv         # Driver information (ID, name, nationality, etc.)
-├── results.csv         # Race results (position, points, per driver per race)
-├── races.csv           # Race information (ID, name, year, circuit, etc.)
-└── README.md
 
 ⚙️ Requirements
 - Python 3.10+
